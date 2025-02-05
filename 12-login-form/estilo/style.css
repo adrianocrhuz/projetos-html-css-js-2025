@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0,0.3),rgba(0, 0, 0,0.3)), url(../img/novo-logo-casas-bahia.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 380px;
+    height: 470px;
+    background: #fff;
+    color: #000;
+    transform: translate(-50%,-50%);
+    padding: 60px 40px;
+    border-radius: 20px;
+}
+.main-img {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: -50px;
+    border-radius: 50%;
+    border: 1px solid #000;
+    left: calc(50% - 50px);
+}
+.box h1 {
+    font-size: 30px;
+    text-align: center;
+    font-weight: 800;
+    padding: 0 0 30px;
+}
+.box p {
+    color: #000;
+    font-weight: bold;
+}
+.box input {
+    margin-bottom: 15px;
+    width: 100%;
+}
+.box input[type="text"], input[type="Password"] {
+    border: none;
+    border-bottom: 1px solid #000;
+    outline: none;
+    height: 30px;
+    font-size: 15px;
+}
+.box input[type="submit"] {
+    border: none;
+    height: 45px;
+    background: #000;
+    color: #fff;
+    font-size: 17px;
+    border-radius: 30px;
+    text-transform: capitalize;
+}
+.box input[type="submit"]:hover {
+    opacity: 0.8;
+    transition: 0.5s;
+    cursor: pointer;
+}
+a {
+    display: block;
+    font-size: 15px;
+    color: gray;
+    line-height: 25px;
+    text-decoration: none;
+}
+a:hover {
+    color: #000;
+    transition: 0.5s;
+}
